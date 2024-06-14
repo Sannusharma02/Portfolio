@@ -14,20 +14,25 @@
 
 <body>
     <div class="site-main-wrapper">
+        
         <button class="hamberger">
             <img src="./images/hamberger.svg" alt="hamberger">
         </button>
 
         <div class="mobile-nav">
-            <button class="times"><img src="./images/times.svg" alt="X"></button>
+            <div class="times">
+                <img src="./images/logo.svg" alt="Company Logo" style="width: 200px; height: 100px;">
+            <button class="x"><img src="./images/times.svg" alt="X"></button>
+            </div>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="#home" class="home">Home</a></li>
+                <li><a href="#about" class="about">About</a></li>
+                <li><a href="#services" class="services">Services</a></li>
+                <li><a href="#work" class="work">Work</a></li>
+                <li><a href="#blog" class="blog">Blog</a></li>
             </ul>
         </div>
+        
         <header>
             <div class="container">
                 <!-- navigating menu -->
@@ -56,10 +61,9 @@
                     <div class="right flex-1">
                         <h6>Sannu Sharma</h6>
                         <h1>I’m a Creative <span>Designer & Developer</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco
-                            laboris
-                            nisi ut aliquip ex ea commodo consequat</p>
+                        <p>Innovative Software Developer with a year of hands-on experience designing and
+                            testing applications. Well-versed in Agile methodologies and coding languages.
+                            Dedicated to developing creative solutions to meet business goals and requirements.</p>
                         <div>
                             <a href="./cv/Sannu_Sharma_Resume.pdf" download>
                                 <button class="btn btn-secondary">DOWNLOAD CV</button>
@@ -88,10 +92,10 @@
                         Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat</p>
                     <div class="social">
-                        <a href="#"><img src="./images/website.svg" alt="website"></a>
+                        <a href="https://sannusharma02.github.io/Portfolio/"><img src="./images/website.svg" alt="website"></a>
                         <a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
                         <a href="#"> <img src="./images/twitter.svg" alt="twitter"></a>
-                        <a href="#"> <img src="./images/pintrest.svg" alt="pintrest"></a>
+                        <a href="#"> <img src="./images/github.svg" alt="github"></a>
                         <a href="#"><img src="./images/instagram.svg" alt="instagram"></a>
                     </div>
                 </div>
@@ -165,28 +169,28 @@
                 <div class="slider">
                     <div class="slide">
                         <!-- ./images/lady.png -->
-                        <img src="" alt="lady">
+                        <img src="./images/lady.png" alt="lady">
                         <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                             mollit anim id est laborum"</p>
                         <span>- John Doel, Company ABC</span>
                     </div>
                     <div class="slide">
-                        <img src="./images/lady.png" alt="">
+                        <img src="./images/lady.png" alt="lady">
                         <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                             mollit anim id est laborum"</p>
                         <span>- John Doel, Company ABC</span>
                     </div>
                     <div class="slide">
-                        <img src="./images/lady.png" alt="">
+                        <img src="./images/lady.png" alt="lady">
                         <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                             mollit anim id est laborum"</p>
                         <span>- John Doel, Company ABC</span>
                     </div>
                     <div class="slide">
-                        <img src="./images/lady.png" alt="">
+                        <img src="./images/lady.png" alt="lady">
                         <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                             mollit anim id est laborum"</p>
@@ -309,20 +313,20 @@
             </div>
         </section>
         <!-- contact -->
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="container">
                 <h1 class="section-heading">Contact <span>Us</span></h1>
                 <p>We provide high standar clean website for your business solutions</p>
                 <div class="card-wrapper">
                     <div class="card">
                         <img src="./images/phone-2.svg" alt="">
-                        <h1>Call Us On</h1>
-                        <h6>+985 123 7856</h6>
+                        <h1>Call On</h1>
+                        <h6><a href="tel:7896690780">7896690780</a></h6>
                     </div>
                     <div class="card">
                         <img src="./images/msg.svg" alt="">
-                        <h1>Email Us At</h1>
-                        <h6>support@companyname.com</h6>
+                        <h1>Email At</h1>
+                        <h6><a href="mailto:sannusharma02@gmail.com">sannusharma02@gmail.com</a></h6>
                     </div>
                     <div class="card">
                         <img src="./images/map.svg" alt="">
